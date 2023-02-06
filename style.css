@@ -1,0 +1,21 @@
+#game {
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.col-button {
+    width: 3em;
+    height: 3em;
+    margin-left: 0.24em;
+}
+
+#col-1 {
+    margin-left: 1.2em;
+}
+
+#field {
+    width: fit-content;
+    margin-bottom: 10;
+    background-color: #301060;
+    color: #bbb
+}
