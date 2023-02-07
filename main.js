@@ -61,7 +61,7 @@ function t() {
 }
 
 function w() {
-    field.print(gameField, turn % 2 === 0 ? player2.lastTurn : player1.lastTurn);
+    field.print(gameField, turn % 2 === 1 ? player2.lastTurn : player1.lastTurn);
 
     if (field.hasWon() === (realStarts ? 1 : 2))
         gameDiv.children[0].textContent = "Du hast gewonnen!";
