@@ -14,7 +14,7 @@
 }
 
 #field {
-    width: 26rem;
+    display: inline;
     margin-bottom: 10;
     background-color: #301060;
     color: #bbb
